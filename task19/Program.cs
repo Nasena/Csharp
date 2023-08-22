@@ -28,3 +28,4 @@ else
 {
    Console.WriteLine($"Число {userNumber} - не является палиндромом");
 }
+
