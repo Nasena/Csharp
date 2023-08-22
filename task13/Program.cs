@@ -6,6 +6,10 @@
 
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
+while (number > 999)
+{
+    number = number / 10;
+}
 int numberThree = number % 10;
 
 if (number>100)
